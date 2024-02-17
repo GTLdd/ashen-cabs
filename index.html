@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ashen Cabs</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section id="navbar">
+        <div class="nav-class">
+            
+                <ul class="nav-ul-list">
+                    <li class="nav-list"><a href="#">
+                        <img src="./assets/ATC-C-BC.png" height="50" width="90" alt="ATC logo"></a>
+                    </li>
+                    <li class="nav-list"><a class="nav-a"  href="#">Services</a></li>
+                    <li class="nav-list"><a class="nav-a"  href="#">Testimonials</a></li>
+                    <li class="nav-list"><a class="nav-a"  href="#">About Us</a></li>
+                    <li class="nav-list"><a class="nav-a"  href="#">Contact Us</a></li>
+                    <li onclick="showSideBar()" class="nav-list"><a href="#"><span class="material-symbols-outlined showMenu">
+                        menu
+                        </span></a></li>
+                </ul>
+
+                <ul class="side-bar">
+                    <li onclick="hideSideBar()"  class=" side"><a  href="#"><span class="material-symbols-outlined ">
+                        close
+                        </span></a></li>
+                    <li class="side"><a class="sid-a" href="#">Services</a></li>
+                    <li class="side"><a class="sid-a"  href="#">Testimonials</a></li>
+                    <li class="side"><a class="sid-a"  href="#">About Us</a></li>
+                    <li  class="side"><a class="sid-a"  href="#">Contact Us</a></li>
+                    
+                </ul>
+        </div>
+    </section>
+
+
+<script>
+    function showSideBar(){
+        var sidebar = document.querySelector(".side-bar")
+
+        sidebar.style.display = "flex";
+        
+    }
+
+    function hideSideBar(){
+        var sidebar = document.querySelector(".side-bar")
+
+        sidebar.style.display = "none";
+        
+    }
+</script>
+
+</body>
+</html>
