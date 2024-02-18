@@ -154,14 +154,14 @@ a{
 
 .bus{
     height: 450px;
-    margin-left: -20px;
+    margin-left: -80px;
     margin-top: -45px;
 }
 
 
-/*.previous-btn, .next-btn{
+.previous-btn, .next-btn{
     display: none;
-}*/
+}
 
 
 
