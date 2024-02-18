@@ -15,6 +15,7 @@ body{
     background-color: white;
     box-shadow: 4px 4px 10px #11235A;
     height: 60px;
+    z-index: 1;
 }
 
 
@@ -24,6 +25,7 @@ body{
     justify-content: flex-end;
     align-items: center;
 }
+
 
 
 .nav-list:first-child{
@@ -44,6 +46,8 @@ a{
     color: black;
     font-size: 20px;
     margin-right: 10px;
+    margin-top: 22px;
+    margin-bottom: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -64,7 +68,7 @@ a{
     right: 0;
     height: 100vh;
     width: 270px;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: rgba(233, 233, 233, 0.874);
     box-shadow: 4px 4px 10px #11235A ;
     transition: 1s;
@@ -74,6 +78,15 @@ a{
     width: 90%;
     margin-left: 18px;
     margin-top: 15px;
+}
+
+.sid-a {
+    margin-left: -30px;
+    margin-bottom: -16px;
+}
+
+.side-close{
+    margin-left: -25px;
 }
 
 .hideMenu :hover{
@@ -88,9 +101,66 @@ a{
     transition: 0.8s;
 }
 
+
+
 .showMenu{
     display: none;
 }
+
+#slider{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 18%;
+    width: 60%;
+    height: 800px;
+    
+}
+
+.vehicle{
+    margin-top: -80px;   
+    height: 500px;
+    width: 50px;
+}
+
+.alto{
+    margin-left: 25px;
+    height: auto;
+}
+
+.wagonR{
+    height: auto;
+    margin-top: -170px;
+    margin-left: 20px;
+}
+
+.nano{
+    height: auto;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+.hiace{
+    height: auto;
+    margin-top: -150px;
+    margin-left: 40px;
+}
+
+.minibus{
+    height: auto;
+    margin-top: -230px;
+    margin-left: 40px;
+}
+
+
+.bus{
+    margin-left: 50px;
+}
+
+
+.previous-btn, .next-btn{
+    display: none;
+}
+
 
 
 @media (max-width: 650px){
@@ -102,5 +172,46 @@ a{
     .showMenu{
         display:block;
     }
+
+    #slider{
+        height: 300px;
+        margin-top: 110px;
+        width: 80%;
+    }
+
+    .vehicle{
+        width: 100%;
+        margin-top: -1px;
+        margin-left: -40px;
+        
+    }
+
+    .nano{
+        margin-left: -40px;
+    }
+
+    .wagonR{
+        margin-top: -60px;
+        margin-left: -55px;
+
+    }
+
+    .hiace{
+        margin-top: -60px;
+    }
+
+    .minibus{
+        margin-top: -80px;
+        width: 100%;
+        height: 400px;
+        margin-left: -30px;
+    }
+
+    .bus{
+        height: 300px;
+        margin-left: -10px;
+        margin-top: -50px;
+    }
+
 
 }
