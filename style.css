@@ -177,6 +177,7 @@ a{
     }
 
     #slider{
+        margin-left: 70px;
         height: 300px;
         margin-top: 110px;
         width: 80%;
@@ -226,7 +227,7 @@ a{
     .bus{
         height: 210px;
         width: 30%;
-        margin-left: -38px;
+        margin-left: -58px;
         margin-top: 20px;
     }
 
