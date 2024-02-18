@@ -153,7 +153,9 @@ a{
 
 
 .bus{
-    margin-left: 50px;
+    height: auto;
+    margin-left: -20px;
+    margin-top: -80px;
 }
 
 
@@ -188,11 +190,13 @@ a{
     }
 
     .alto{
+        height: 250px;
         margin-left: -30px;
     }
 
 
     .nano{
+        height: 220px;
         margin-left: -40px;
     }
 
@@ -204,21 +208,23 @@ a{
     }
 
     .hiace{
+        height: 250px;
         margin-top: -20px;
         margin-left: -20px;
     }
 
     .minibus{
-        margin-top: -70px;
+        margin-top: -65px;
         width: 100%;
-        height: 400px;
+        height: 350px;
         margin-left: -10px;
     }
 
     .bus{
-        height: 250px;
-        margin-left: 5px;
-        margin-top: -5px;
+        height: 210px;
+        width: 30%;
+        margin-left: -40px;
+        margin-top: -1px;
     }
 
 
