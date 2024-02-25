@@ -308,8 +308,8 @@
         }
 
         .about-us-container{
-            margin-top: 65%;
-            height: 105%;
+            margin-top: 100%;
+            height: 115%;
         }
 
         .about-head{
@@ -327,11 +327,11 @@
         .img-who-are-we{
             width: 100%;
             height: 300px;
-            margin-top: 50px;
+            margin-top: 30px;
         }
 
         .about-para{
-            margin-top: 60px;
+            margin-top: 30px;
         }
 
         .our-mission{
