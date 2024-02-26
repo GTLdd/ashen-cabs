@@ -245,7 +245,7 @@
         align-items: center;
         position:absolute;
         margin-top: 85%;
-        height: 1300px;
+        height: 1200px;
         width: 100%;
         color: #F0F0F0;
         background-color: #11235A ;
@@ -267,7 +267,7 @@
 
     .service-grid{
         display: grid;
-        grid-template-rows: 530px 530px;
+        grid-template-rows: 500px 500px;
         grid-template-columns: 33.33% 33.33% 33.33%;
         position: absolute;
         height: 900px;
@@ -281,8 +281,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        margin-right: 10px;
-        margin-bottom: 25px;
+        margin-right: 40px;
+        margin-bottom: 30px;
         /*border: 2px #F0F0F099 solid;*/
         border-radius: 10px;
         box-shadow: 2px 2px #F0F0F098;
@@ -301,7 +301,7 @@
     .service-para{
         width: 90%;
         margin-top: 25px;
-        color: #F0F0F0;
+        color: #F5F7F899;
         font-family: sans-serif;
         font-size: 16px;
         font-weight: normal;
@@ -310,7 +310,7 @@
 
     .service-sub-head{
         font-size: 25px;
-        color: #F0F0F099;
+        color: #F5F7F8;
         margin-top: 15px;
         
         
@@ -319,7 +319,7 @@
     .service-flex{
         display: flex;
         width: 90%;
-        align-items: right;;
+        align-items: right;
     }
     
 
