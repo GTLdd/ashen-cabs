@@ -402,7 +402,7 @@
             height: 115%;
         }
 
-        .about-head{
+        .about-head, .service-head{
             font-size: 25px;
         }
 
@@ -456,11 +456,20 @@
         }
 
         .service-img{
-            width: 90%;
-            object-fit: cover;
+            width: 95%;
             height: 300px;
         
         }
+
+        .service-sub-head{
+            font-size: 20px;
+        }
+
+        .service-para{
+            font-size: 12px;
+        }
+
+
 
 
 
