@@ -448,10 +448,11 @@
         }
 
         .serviceBox{
-            height: 500PX;
+            height: 400PX;
             width: 100%;
             align-items: center;
             margin-bottom: 60px;
+            box-shadow: 2px 2px 3px 3px;
             
         }
 
