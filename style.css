@@ -251,6 +251,8 @@
         background-color: #11235A ;
         
     }
+
+
     
     .service-head{
         display: flex;
@@ -321,8 +323,8 @@
         width: 90%;
         align-items: right;
     }
-    
 
+ 
 
 
  
@@ -433,6 +435,27 @@
         .about-para{
             font-size: 12px;
         }
+
+        .service-container{
+            margin-top: 225%;
+            height: 600%;
+            
+        }
+
+        .service-grid{
+            display: block;
+            margin-top: 150PX;
+        }
+
+        .serviceBox{
+            height: 500PX;
+            width: 80%;
+            align-items: center;
+            margin-bottom: 60px;
+            margin-left: 45px;
+            
+        }
+
 
 
     }
